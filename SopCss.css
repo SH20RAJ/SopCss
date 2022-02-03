@@ -1,4 +1,26 @@
 
+/*General Elements*/
+body {
+  font-family: sans-serif;
+}
+footer {
+    height: 200px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: row;
+    background: black;
+    position: sticky;
+    bottom: 0;
+}
+
+/*Normals*/
+.txt-deco-none,.txt-deco-none a{
+  text-decoration: none;
+}
 /*Animations SopCss More Here :- https://animista.net/ */
 .bounce-bottom{animation:bounce-bottom 1s both}
 @keyframes bounce-bottom{0%{transform:translateY(45px);animation-timing-function:ease-in;opacity:1}24%{opacity:1}40%{transform:translateY(24px);animation-timing-function:ease-in}65%{transform:translateY(12px);animation-timing-function:ease-in}82%{transform:translateY(6px);animation-timing-function:ease-in}93%{transform:translateY(4px);animation-timing-function:ease-in}25%,55%,75%,87%{transform:translateY(0);animation-timing-function:ease-out}100%{transform:translateY(0);animation-timing-function:ease-out;opacity:1}}
@@ -24,6 +46,11 @@
  transform: translate(0.05em, 0.05em);
  box-shadow: 0.05em 0.05em;
 }
+
+/*Background colors*/
 .bg-green{
   background: rgb(81, 228, 81);
+}
+.bg-black{
+  background: rgb(7, 9, 17);
 }
